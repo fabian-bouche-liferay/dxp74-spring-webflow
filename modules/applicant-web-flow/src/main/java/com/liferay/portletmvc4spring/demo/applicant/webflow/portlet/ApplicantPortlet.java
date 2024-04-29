@@ -15,12 +15,19 @@
  */
 package com.liferay.portletmvc4spring.demo.applicant.webflow.portlet;
 
+import com.liferay.portal.kernel.util.PortalUtil;
 import com.liferay.portletmvc4spring.DispatcherPortlet;
+
+import java.io.IOException;
+
+import javax.portlet.PortletException;
+import javax.portlet.RenderRequest;
+import javax.portlet.RenderResponse;
 
 
 /**
  * @author  Fabian Bouché
  */
 public class ApplicantPortlet extends DispatcherPortlet {
-
+	
 }

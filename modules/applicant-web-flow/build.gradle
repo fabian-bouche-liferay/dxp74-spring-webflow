@@ -16,9 +16,9 @@ apply plugin: "com.liferay.css.builder"
 dependencies {
 	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
 
-	compile group: 'com.liferay.portletmvc4spring', name: 'com.liferay.portletmvc4spring.framework', version: '5.3.3'
-	compile group: 'com.liferay.portletmvc4spring', name: 'com.liferay.portletmvc4spring.security', version: '5.3.3'
-	compile group: 'com.liferay.portletmvc4spring', name: 'com.liferay.portletmvc4spring.webflow', version: '5.3.3'
+	compile group: 'com.liferay.portletmvc4spring', name: 'com.liferay.portletmvc4spring.framework', version: '5.3.4'
+	compile group: 'com.liferay.portletmvc4spring', name: 'com.liferay.portletmvc4spring.security', version: '5.3.4'
+	compile group: 'com.liferay.portletmvc4spring', name: 'com.liferay.portletmvc4spring.webflow', version: '5.3.4'
 	compile group: 'org.hibernate.validator', name: 'hibernate-validator', version: "6.2.5.Final"
 
 	compileOnly group: "org.slf4j", name: "slf4j-api"
